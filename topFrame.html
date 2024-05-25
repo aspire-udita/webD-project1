@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopFrame</title>
+    <style>
+        a:link{ text-decoration: none; color: #030303; } 
+        a:visited{ text-decoration: none; color: #030303; }
+        a:hover{ text-decoration: none; color: #fafafa; }
+        a:active{ text-decoration: none; color: #113F5E; }
+
+        body{ 
+            background-color:#98bbcf; 
+        }
+        table{
+            text-align:center; 
+            width:100%; 
+            height:100%; 
+            border-collapse:collapse; 
+            table-layout:fixed; 
+            border: 3px solid #113F5E;
+        }
+        thead{
+            height: 50vh; 
+            background-color:#358099; 
+            border: 3px solid #113F5E;
+        }
+        th{
+            height:"50vh"; 
+            border: 3px solid #113F5E;
+        }
+        td{
+            border: 3px solid #113F5E;
+            text-align: center;
+            height:"50vw";
+        }
+        
+    </style>
+    <base target="rightFrame">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th  height="50vh"><img src="psit.logo.jpg" width="50px"></th>
+                <th colspan="4"  height="50vh">BOOK STORE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="height: 50vh">
+                <td><a href="home.html">Home</a></td>
+                <td><a href="login.html">Login</a></td>
+                <td><a href="registration.html">Registration</a></td>
+                <td><a href="catalogue.html">Catalogue</a></td>
+                <td><a href="cart.html" target="rightFrame">Cart</a></td>
+            </tr>
+        </tbody>   
+    </table>
+</body>
+</html>

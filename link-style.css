@@ -1,0 +1,22 @@
+a:link{
+    text-decoration: none;
+    color: #785B3F;
+}
+a:visited{
+    text-decoration: none;
+    color: #785B3F;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(77, 77, 70);
+}
+a:active{
+    text-decoration: none;
+    color: bisque;
+}
+button{
+    color:#040408 ;
+    border:2px solid #113F5E;
+    border-radius: 3px;
+    background-color: #98bbcf;
+}
